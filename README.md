@@ -84,32 +84,34 @@ Our project goal was to develop a car that follows a set path based on GPS cordi
 
 <!-- Original Goals -->
 ### Original Goals
-- Ride Request
-  - When launching this node, the user will be prompted to define 4 variables
-    - `first_name`
-    - `last_name` 
-    - `pickup_location` 
-    - `dropoff_location` 
-  - This "ride-request" node will then publish these details to a topic to be accessed by additional nodes to determine the robot's subsequent actions
-- Custom User Interfaces
-  - This package defines custom interfaces for the parameters entered by the user
-  - Stores the user input data under predefined values for our nodes to access and compare, i.e. `identiifed_face` and `first_name` of ride request
-- Face Recognition
-  - Facial recognition and verification nodes that will be subscribed to the "Name" message given by the user and publish to a new topic
-    - Upon arriving at the pickup point, this module will deploy facial recognition using open-source Python libraries (`face_recognition, cv2, dlib`) 
-    - The service will initiate a live webcam stream through a mounted Oak-D Lite and attempt to identify the student
-    - If the student's identity is correctly verified as the individual who requested the ride, the navigation to dropoff will be authorized
-    - If the identified student does not match the name given in the ride request, the car will cancel pickup and return to base
-- GPS navigation
-  - A package dedicated to extracting the pickup and dropoff locations, which will be converted to their corresponding `.csv` path datasets and used in mapping the route and navigating the path
-    - Subscribes to the `pickup` and `dropoff` location topics and matches the input to a saved path such as `ebu2-to-ebu1.csv`
-    - Client/Action server node structure so the driving process happens one time as a service, unlike the publisher nodes
-- LiDAR
-  - A package for utilizing mounted LiDAR LD06 for object detection as a safety measurement for collision avoidance
-    - This should launch as a submodule as part of the overall Robocar package that runs in the background for emergency stop capabilities
+- Automated Path Setup
+  - Develop a package dedicated to extracting the car's path, converting it to corresponding .csv datasets for route mapping and navigation.
+    - Upon launch, the car will follow a path based on data obtained from the GNSS, adhering to its route.
+    - Adjust the PID variables to correct overcorrection and undercorrection when the car deviates from its path.
+    - Implement real-time monitoring and adjustments to ensure the car stays on course.
+- Color Recognition
+  - Utilize the camera to obtain a real-time view of the environment and track colors. 
+    - Determine the coordinates from the center when a color is detected.
+    - Once color detection is functional, work on detecting specific objects.
+    - Integrate object detection algorithms to enhance the accuracy and reliability of the system.
+- CAD Design
+  - Design a servo mount capable of rotating along the X and Y axes.
+    - Create a mount attached to the servos to enable pointing at different locations.
+    - Ensure the design is robust and can withstand the operational stresses of the system.
+    - Optimize the mount for ease of assembly and maintenance.
+- Servo motor control
+  - Employ the adafruit_servokit library to move the servos and aim the laser along the X and Y axes.
+    - Use coordinates received from the color or object detection model to move the servo and point at the specific object.
+    - Implement precise control algorithms to ensure accurate targeting.
+    - Test and calibrate the servo movements to achieve optimal performance.
+- Laser Control
+  - Activate the laser when the object is detected and the laser is aimed at the object.
+    - Ensure safety protocols are in place to prevent accidental activation.
+    - Integrate feedback mechanisms to confirm successful targeting and firing.
+    - Conduct thorough testing to validate the system's reliability and effectiveness.
    
 <!-- End Results -->
-### Goals We Met
+### Goals We Met (will fix when fils are uploded)
 - [`ride_request_publisher.py`](src/ride_request_pkg/ride_request_pkg/ride_request_publisher.py): ride request node
 - [`user_input_interfaces`](src/user_input_interfaces/msg): custom interface definitions
   - [`RideRequest.msg`](src/user_input_interfaces/msg/RideRequest.msg)
