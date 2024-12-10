@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-<h1 align="center">UCSDrive! Autonomous Campus Rideshare</h1>
+<h1 align="center">The Tank</h1>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -8,9 +8,9 @@
   <a href="https://jacobsschool.ucsd.edu/">
     <img src="images\UCSDLogo_JSOE_BlueGold.png" alt="Logo" width="400" height="100">
   </a>
-<h3>MAE148 Final Project</h3>
+<h3>ECE/MAE148 Final Project</h3>
 <p>
-Team 4 Winter 2024
+Team 3 Fall 2024
 </p>
 
 ![image](images/7C66CA64-C422-4535-9721-F523EA8FAC5B.jpeg)
@@ -65,21 +65,22 @@ Team 4 Winter 2024
 ## Team Members
 
 <div align="center">
-    <p align = "center">Kiersten, Jacob, Joe, Damien</p>
+    <p align = "center">Agasthya, Harshit, Minjun, Purab</p>
 </div>
 
 <h4>Team Member Major and Class </h4>
 <ul>
-  <li>Kiersten - Mechanical Engineering, Ctrls & Robotics (MC34) - Class of 2025</li>
-  <li>Jacob - Electrical Engineering (EC27) - Class of 2007</li>
-  <li>Joe - Mechanical Engineering, Ctrls & Robotics (MC34) - Class of 2025</li>
-  <li>Damien - Mechanical Engineering (MC25) - Class of 2026</li>
+  <li>Agasthya - Mechanical Engineering, Ctrls & Robotics (MC34) - Class of 2025</li>
+  <li>Harshit - Mechanical Engineering, Ctrls & Robotics (MC34) - Class of 2025</li>
+  <li>Minjun - Electrical Engineering (EC27) - Class of 2026</li>
+  <li>Purab - Mechanical Engineering (MC25) - Class of 2026</li>
 </ul>
 
 <!-- Final Project -->
 ## Final Project
 
-Our project goal was to develop a prototype of an a self-driving campus rideshare service exclusively for UCSD students that utilizes facial recognition as an extra element of safety and security for students. We aimed to develop ROS2 packages that would run in conjunction with the UCSD Robocar framework, programming our car to effectively perform controlled tasks while driving autonomously.
+Our project goal was to develop a car that follows a set path based on GPS cordinates searching for certain objects and shooting it with a laser. We aimed to create a project that could be useful in the defense industry creating autonomus tanks and other vehicles to save lives of military personal. Our project is developed using ROS2 packages that works with the UCSD Robocar framework to be able to control the servos in charge of aiming and shooting the laser, as well as have the car run on its set path using GNSS.
+
 
 <!-- Original Goals -->
 ### Original Goals
