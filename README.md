@@ -73,7 +73,7 @@ Team 3 Fall 2024
   <li>Agasthya - Mechanical Engineering, Ctrls & Robotics (MC34) - Class of 2025</li>
   <li>Harshit - Mechanical Engineering, Ctrls & Robotics (MC34) - Class of 2025</li>
   <li>Minjun - Electrical Engineering (EC27) - Class of 2026</li>
-  <li>Purab - Mechanical Engineering (MC25) - Class of 2026</li>
+  <li>Purab - Computer Engineering (EC26) - Class of 2026</li>
 </ul>
 
 <!-- Final Project -->
