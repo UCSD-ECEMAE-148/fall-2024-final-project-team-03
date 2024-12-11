@@ -99,7 +99,7 @@ Our project goal was to develop a car that follows a set path based on GPS cordi
     - Create a mount attached to the servos to enable pointing at different locations.
     - Ensure the design is robust and can withstand the operational stresses of the system.
     - Optimize the mount for ease of assembly and maintenance.
-- Servo motor control
+- Servo Motor Control
   - Employ the adafruit_servokit library to move the servos and aim the laser along the X and Y axes.
     - Use coordinates received from the color or object detection model to move the servo and point at the specific object.
     - Implement precise control algorithms to ensure accurate targeting.
@@ -111,15 +111,15 @@ Our project goal was to develop a car that follows a set path based on GPS cordi
     - Conduct thorough testing to validate the system's reliability and effectiveness.
    
 <!-- End Results -->
-### Goals We Met (will fix when fils are uploded)
-- [`ride_request_publisher.py`](src/ride_request_pkg/ride_request_pkg/ride_request_publisher.py): ride request node
-- [`user_input_interfaces`](src/user_input_interfaces/msg): custom interface definitions
+### Goals We Met (will fix when files are uploded)
+- [`ride_request_publisher.py`](src/ride_request_pkg/ride_request_pkg/ride_request_publisher.py): Automated Path Setup 
+- [`user_input_interfaces`](src/user_input_interfaces/msg): Color Recognition
   - [`RideRequest.msg`](src/user_input_interfaces/msg/RideRequest.msg)
   - [`RideMatch.msg`](src/user_input_interfaces/msg/RideMatch.msg)
-- [`face_rec_pkg`](src/face_rec_pkg/face_rec_pkg): face recognition package
+- [`face_rec_pkg`](src/face_rec_pkg/face_rec_pkg): CAD Design
   - [`face_publisher.py`](src/face_rec_pkg/face_rec_pkg/face_publisher.py): face recognition node for publishing identified name and video stream
-  - [`verification_service.py`](src/face_rec_pkg/face_rec_pkg/verification_service.py): identity verification node
-  - GPS Navigation Training: DonkeyCar framework
+- [`face_rec_pkg`](src/face_rec_pkg/face_rec_pkg): Servo Motor Control
+- [`face_rec_pkg`](src/face_rec_pkg/face_rec_pkg): Laser Control
 
 See [`README`](src/README.md) section in our `src` directory for breakdown of how our packages run together
 
@@ -128,19 +128,14 @@ See [`README`](docker/README.md) section in our `docker` directory for breakdown
 ### Our Hopes and Dreams
 #### Stretch Goal 1
 - Complete package integration with ROS
-  - We successfully trained our car in several different paths using GPS PointOneNav in DonkeyCar and storing the paths as `.csv` files
-  - Unfortunately we didn't have enough time to ROS-ify the Donkey GPS framework to run them from within our ROS/Robocar modules
+  - We would like to have ROS integration because it provides a modular and scalable framework for developing robotic applications. ROS allows for seamless communication between different components, enabling more robust control of the car. By integrating ROS, we can enhance the system's modularity, making it easier to implement additional features, debug issues, and ensure compatibility with other robotics projects in the future.
 
 #### Stretch Goal 2
 - LiDAR
-  - If our car is driving autonomously with GPS only, we would definitely activate the LiDAR to incorporate an emergency stop
-  - Object detection for collision avoidance on while driving on the pretrained GPS paths
-
+  - Since our car is only driving using GPS, there are no object avoidance capabilities. LiDAR will allow us to detect obstacles on the path and navigate around them, returning to the GPS-defined route. Incorporating LiDAR enhances the system's situational awareness, making it more adaptable to dynamic environments. This development is inspired by existing projects like autonomous vehicles, which combine GNSS with LiDAR to achieve precision and safety.
 ### Final Project Documentation
 
-* [Final Project Proposal](https://docs.google.com/presentation/d/199oVWJiOSEHAjcmizN8rejuzU7rHNCNl4qY55uGqgxQ/edit?usp=sharing)
-* [Progress Update 2/29](https://github.com/kiers-neely/ucsd-mae-148-team-4/files/14469441/mae148-slides-update.pdf)
-* [Progress Update 3/7](https://github.com/kiers-neely/ucsd-mae-148-team-4/files/14547470/mae148-slides-update.2.pdf)
+* [Final Project Proposal](https://docs.google.com/presentation/d/1ciqbkGPFqllosRhsaxw-nCjrUmgzkP6osQgYeFSXA8M/edit#slide=id.g27c9638c8a0_0_194)
 
 <!-- Early Quarter -->
 ## Robot Design
@@ -183,21 +178,24 @@ For our early quarter course deliverables we used DonkeyCar to train a car in dr
 
 <!-- Authors -->
 ## Authors
-  - [@kiers-neely](https://github.com/kiers-neely)  
+  - [@PurabB](https://github.com/PurabB)  
+  - [@MinjunSong068](https://github.com/MinjunSong068) 
+  - [@AgasthyaV](https://github.com/AgasthyaV) 
+  - [@hgoyal2003](https://github.com/hgoyal2003) 
 
 <!-- Badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-*Thank you to my teammates, Professor Jack Silberman, and our incredible TA Arjun Naageshwaran for an amazing Winter 2024 class!*
+*Thank you to my teammates, Professor Jack Silberman, and our incredible TA's Winston and Alexander for an amazing Fall 2024 class!*
 
 <!-- CONTACT -->
 ## Contact
 
-* Kiersten | kneely@ucsd.edu
-* Jacob | jacoberobison@gmail.com 
-* Joe | hjjeong@ucsd.edu
-* Damien | dcuara@ucsd.edu
+* Agasthya | avalluri@ucsd.edu
+* Harshit  | hgoyal@ucsd.edu 
+* Minjun   | mis034@ucsd.edu
+* Purab    | pbalani@ucsd.edu
 
 
