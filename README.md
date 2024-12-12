@@ -111,15 +111,13 @@ Our project goal was to develop a car that follows a set path based on GPS cordi
     - Conduct thorough testing to validate the system's reliability and effectiveness.
    
 <!-- End Results -->
-### Goals We Met (will fix when files are uploded)
-- [`ride_request_publisher.py`](src/ride_request_pkg/ride_request_pkg/ride_request_publisher.py): Automated Path Setup 
-- [`user_input_interfaces`](src/user_input_interfaces/msg): Color Recognition
-  - [`RideRequest.msg`](src/user_input_interfaces/msg/RideRequest.msg)
-  - [`RideMatch.msg`](src/user_input_interfaces/msg/RideMatch.msg)
-- [`face_rec_pkg`](src/face_rec_pkg/face_rec_pkg): CAD Design
-  - [`face_publisher.py`](src/face_rec_pkg/face_rec_pkg/face_publisher.py): face recognition node for publishing identified name and video stream
-- [`face_rec_pkg`](src/face_rec_pkg/face_rec_pkg): Servo Motor Control
-- [`face_rec_pkg`](src/face_rec_pkg/face_rec_pkg): Laser Control
+### Goals We Met (will fix when files are uploaded)
+- [`Ride_Request_Publisher.py`](src/ride_request_pkg/ride_request_pkg/ride_request_publisher.py): Automated Path Setup 
+- [`Color Recognition with Servo Control`](Servo_control_with_OpenCV/servoControl.py): Color Recognition
+  - [`Object Recognition`](opencvmethod/detectface.py): Object Detection
+- [`CAD Design`](CAD_Design): CAD Design
+- [`Servo Control`](opencvmethod/servocontrol.py): Servo Motor Control
+- [`Laser Integration`](opencvmethod/main.py): Laser Control
 
 See [`README`](src/README.md) section in our `src` directory for breakdown of how our packages run together
 
