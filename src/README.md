@@ -179,5 +179,3 @@ In a perfect world, we would have these DonkeyCar RTK path following methods int
 For extra safety measures, we'd like to implement our LiDAR for object detection and obstacle avoidance. Stay tuned for this one too!
 
 Thanks again to our awesome Professor Jack Silberman and TA Arjun Naageshwaran for all the guidance! Videos of our car and our nodes in action on the Jetson will be up by the end of the week~
-
-- kiersten
