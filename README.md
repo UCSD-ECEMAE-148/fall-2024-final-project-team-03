@@ -143,11 +143,13 @@ See [`README`](src/README.md) section in our `src` directory for breakdown of ho
 <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/aa99560c-a7ff-4ca0-b913-24ac75bb6eec" width="700" height="500" />
 
 #### Custom Designed Parts
-| Part | CAD Model | Designer |
+| Part | CAD Model |
 |------|--------------|------------|
-| Front Camera Mount | <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/03902430-3625-4b19-ae1d-3ddaa344aa6a" width="300" height="300" /> | Minjun
-| Servo Mount | <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/ce443b16-9706-402e-be97-a78447cd391f" width="300" height="400" /> | Purab
-| Acrylic Base | <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/2b4e5f76-f76d-4184-8922-512b867e38bc" width="300" height="300" /> | Purab
+| Front Camera Mount | <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/03902430-3625-4b19-ae1d-3ddaa344aa6a" width="300" height="300" /> |
+| Servo Mount | <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/ce443b16-9706-402e-be97-a78447cd391f" width="300" height="400" /> | 
+| Acrylic Base | <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/2b4e5f76-f76d-4184-8922-512b867e38bc" width="300" height="300" /> | 
+| Wire Enclosure Top | <img src="https://github.com/user-attachments/assets/15e95362-c2c0-4333-9c79-afb6ebf51052" width="300" height="300" /> | 
+| Wire Enclosure Bottom | <img src="https://github.com/user-attachments/assets/299e3a7f-eb85-44ad-ae1a-ded03609cd35" width="300" height="300" /> | 
 
 ### Electronic Hardware
 Below is a circuit diagram of the electronic hardware setup for the car.
