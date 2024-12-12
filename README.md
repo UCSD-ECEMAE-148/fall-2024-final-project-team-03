@@ -123,8 +123,6 @@ Our project goal was to develop a car that follows a set path based on GPS cordi
 
 See [`README`](src/README.md) section in our `src` directory for breakdown of how our packages run together
 
-See [`README`](docker/README.md) section in our `docker` directory for breakdown of how to run the Docker container for our program with all dependencies built into the image
-
 ### Our Hopes and Dreams
 #### Stretch Goal 1
 - Complete package integration with ROS
