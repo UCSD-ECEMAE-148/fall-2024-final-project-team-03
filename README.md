@@ -13,13 +13,9 @@
 Team 3 Fall 2024
 </p>
   
-![Screenshot 2024-12-12 085525](https://github.com/user-attachments/assets/5cfba030-7129-43df-99ac-548fdd24e8a2)
-
+<img src="https://github.com/user-attachments/assets/5cfba030-7129-43df-99ac-548fdd24e8a2" width="1000" height="800" />
   
 </div>
-
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
