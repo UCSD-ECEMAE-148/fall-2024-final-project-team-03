@@ -13,7 +13,7 @@
 Team 3 Fall 2024
 </p>
   
-<img src="https://github.com/user-attachments/assets/5cfba030-7129-43df-99ac-548fdd24e8a2" width="1000" height="800" />
+<img src="https://github.com/user-attachments/assets/5cfba030-7129-43df-99ac-548fdd24e8a2" width="1400" height="800" />
   
 </div>
 
