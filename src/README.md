@@ -169,7 +169,7 @@ donkey tubclean data
 ```
 ### Run
 ```bash
-   python main.py
+   python3.8 main.py
    rsync -a --progress ~/projects/d3/models/ jetson@ucsdrobocar00:~/projects/d3/models/
    python manage.py drive --model=./models/ucsd_12oct17.h5
    ```
