@@ -107,7 +107,7 @@ Our project goal was to develop a car that follows a set path based on GPS cordi
     - Conduct thorough testing to validate the system's reliability and effectiveness.
    
 <!-- End Results -->
-### Goals We Met (will fix when files are uploaded)
+### Goals We Met
 - [`Automated Path`](https://www.youtube.com/watch?v=wxJq66QpAlQ&feature=youtu.be): Automated Path Setup 
 - [`Color Recognition with Servo Control`](Servo_control_with_OpenCV/servoControl.py): Color Recognition
 - [`Object Recognition`](opencvmethod/detectface.py): Object Detection
@@ -115,7 +115,7 @@ Our project goal was to develop a car that follows a set path based on GPS cordi
 - [`Servo Control`](opencvmethod/servocontrol.py): Servo Motor Control
 - [`Laser Integration`](opencvmethod/main.py): Laser Control
 
-See [`README`](src/README.md) section in our `src` directory for breakdown of how our packages run together
+See [`README`](src/README.md) section in our `src` directory for a breakdown of how our packages run together
 
 ### Our Hopes and Dreams
 #### Stretch Goal 1
