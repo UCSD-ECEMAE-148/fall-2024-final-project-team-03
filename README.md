@@ -143,11 +143,11 @@ See [`README`](src/README.md) section in our `src` directory for breakdown of ho
 #### Custom Designed Parts
 | Part | CAD Model |
 |------|--------------|
-| Camera Mount Top | <img src="https://github.com/user-attachments/assets/e70c9c6a-3d0f-40da-8ad1-6f0b50fabbe3" width="300" height="300" /> 
-| Servo Mount | <img src="https://github.com/user-attachments/assets/95872866-f65a-4101-a95e-b4b46e49fafc" width="300" height="400" />
-| Acrylic Base | <img src="https://github.com/user-attachments/assets/92d6461e-c488-4de9-8c24-d4043f407916" width="300" height="300" />
-| Wire Enclosure Top | <img src="https://github.com/user-attachments/assets/15e95362-c2c0-4333-9c79-afb6ebf51052" width="300" height="300" />
-| Wire Enclosure Bottom | <img src="https://github.com/user-attachments/assets/299e3a7f-eb85-44ad-ae1a-ded03609cd35" width="300" height="300" />
+| Camera Mount Top | <img src="https://github.com/user-attachments/assets/e70c9c6a-3d0f-40da-8ad1-6f0b50fabbe3" width="500" height="300" /> 
+| Servo Mount | <img src="https://github.com/user-attachments/assets/95872866-f65a-4101-a95e-b4b46e49fafc" width="500" height="300" />
+| Acrylic Base | <img src="https://github.com/user-attachments/assets/92d6461e-c488-4de9-8c24-d4043f407916" width="500" height="300" />
+| Wire Enclosure Top | <img src="https://github.com/user-attachments/assets/15e95362-c2c0-4333-9c79-afb6ebf51052" width="500" height="300" />
+| Wire Enclosure Bottom | <img src="https://github.com/user-attachments/assets/299e3a7f-eb85-44ad-ae1a-ded03609cd35" width="500" height="300" />
 
 # Electronic Hardware
 Below is a circuit diagram of the electronic hardware setup for the car.
