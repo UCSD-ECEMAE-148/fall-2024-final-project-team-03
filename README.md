@@ -162,6 +162,7 @@ See [`README`](src/README.md) section in our `src` directory for breakdown of ho
 Below is a circuit diagram of the electronic hardware setup for the car.
 
 <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/6f7501ee-382a-4590-9c0a-f8ce738efec3" width="800" height="400" />
+<img src="https://github.com/user-attachments/assets/eef93ecd-8649-4970-b80e-7297cf45116b" width="800" height="400" />
 
 
 ### Software
