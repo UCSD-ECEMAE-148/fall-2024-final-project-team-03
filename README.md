@@ -152,7 +152,7 @@ See [`README`](src/README.md) section in our `src` directory for breakdown of ho
 ### Electronic Hardware
 Below is a circuit diagram of the electronic hardware setup for the car.
 
-<img src="https://github.com/user-attachments/assets/eef93ecd-8649-4970-b80e-7297cf45116b" width="800" height="400" />
+<img width="610" alt="Screenshot 2024-12-10 173120" src="https://github.com/user-attachments/assets/04ff33a3-9295-4737-bdaa-43daaf4ea177" />
 
 ### Software
 #### Embedded Systems
