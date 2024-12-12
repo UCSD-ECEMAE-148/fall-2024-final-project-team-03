@@ -114,7 +114,7 @@ Our project goal was to develop a car that follows a set path based on GPS cordi
 ### Goals We Met (will fix when files are uploaded)
 - [`Ride_Request_Publisher.py`](src/ride_request_pkg/ride_request_pkg/ride_request_publisher.py): Automated Path Setup 
 - [`Color Recognition with Servo Control`](Servo_control_with_OpenCV/servoControl.py): Color Recognition
-  - [`Object Recognition`](opencvmethod/detectface.py): Object Detection
+- [`Object Recognition`](opencvmethod/detectface.py): Object Detection
 - [`CAD Design`](CAD_Design): CAD Design
 - [`Servo Control`](opencvmethod/servocontrol.py): Servo Motor Control
 - [`Laser Integration`](opencvmethod/main.py): Laser Control
