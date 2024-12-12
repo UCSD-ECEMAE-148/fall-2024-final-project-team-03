@@ -41,9 +41,7 @@ Team 3 Fall 2024
       <ul>
         <li><a href="#cad-parts">CAD Parts</a></li>
           <ul>
-            <li><a href="#final-assembly">Final Assembly</a></li>
             <li><a href="#custom-designed-parts">Custom Designed Parts</a></li>
-            <li><a href="#open-source-parts">Open Source Parts</a></li>
           </ul>
         <li><a href="#electronic-hardware">Electronic Hardware</a></li>
         <li><a href="#software">Software</a></li>
@@ -162,13 +160,6 @@ The base image we pulled from Docker Hub for our project development included th
 #### DonkeyCar AI
 For our early quarter course deliverables, we used DonkeyCar to train a car to drive autonomous GPS laps around a track in a simulated environment. We utilized GNSS to record the coordinates on the track and then trained the car with this data to race on a remote server. This process was instrumental in enabling our car to run autonomously on set paths. By simulating the environment and using the recorded data, we were able to refine our car's navigation capabilities and ensure it could follow predetermined routes accurately.
 
-<!-- Authors -->
-## Authors
-  - [@PurabB](https://github.com/PurabB)  
-  - [@MinjunSong068](https://github.com/MinjunSong068) 
-  - [@AgasthyaV](https://github.com/AgasthyaV) 
-  - [@hgoyal2003](https://github.com/hgoyal2003) 
-
 <!-- Badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -176,9 +167,15 @@ For our early quarter course deliverables, we used DonkeyCar to train a car to d
 ## Acknowledgments
 *Thank you to my teammates, Professor Jack Silberman, and our incredible TA's Winston and Alexander for an amazing Fall 2024 class! Thank you Kiersten and Alexander for the amazing readme template.*
 
+<!-- Authors -->
+## Authors
+  - [@PurabB](https://github.com/PurabB)  
+  - [@MinjunSong068](https://github.com/MinjunSong068) 
+  - [@AgasthyaV](https://github.com/AgasthyaV) 
+  - [@hgoyal2003](https://github.com/hgoyal2003)
+
 <!-- CONTACT -->
 ## Contact
-
 * Agasthya | avalluri@ucsd.edu
 * Harshit | hgoyal@ucsd.edu 
 * Minjun | mis034@ucsd.edu
