@@ -176,7 +176,7 @@ For our early quarter course deliverables, we used DonkeyCar to train a car in d
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-*Thank you to my teammates, Professor Jack Silberman, and our incredible TA's Winston and Alexander for an amazing Fall 2024 class!*
+*Thank you to my teammates, Professor Jack Silberman, and our incredible TA's Winston and Alexander for an amazing Fall 2024 class! Thank you Kiersten and Alexander for the amazing readme template.*
 
 <!-- CONTACT -->
 ## Contact
