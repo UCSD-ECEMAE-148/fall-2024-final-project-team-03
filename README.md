@@ -75,7 +75,7 @@ Team 3 Fall 2024
 <!-- Final Project -->
 ## Final Project
 
-Our project goal was to develop a car that follows a set path based on GPS cordinates searching for certain objects and shooting it with a laser. We aimed to create a project that could be useful in the defense industry creating autonomus tanks and other vehicles to save lives of military personal. Our project is developed using ROS2 packages that works with the UCSD Robocar framework to be able to control the servos in charge of aiming and shooting the laser, as well as have the car run on its set path using GNSS.
+Our project goal was to develop a car that follows a set path based on GPS cordinates searching for certain objects and shooting it with a laser. We aimed to create a project that could be useful in the defense industry creating autonomous tanks and other vehicles to save lives of military personal. Our project is developed using ROS2 packages that works with the UCSD Robocar framework to be able to control the servos in charge of aiming and shooting the laser, as well as have the car run on its set path using GNSS.
 
 
 <!-- Original Goals -->
@@ -128,6 +128,7 @@ See [`README`](src/README.md) section in our `src` directory for breakdown of ho
 ### Final Project Documentation
 
 * [Final Project Proposal](https://docs.google.com/presentation/d/1ciqbkGPFqllosRhsaxw-nCjrUmgzkP6osQgYeFSXA8M/edit#slide=id.g27c9638c8a0_0_194)
+* [Final Project](https://docs.google.com/presentation/d/1eOqrWyjnw9IpV7LPcrGtjxquB-9Qy6-whlQv2tgpJoo/edit#slide=id.g31f0bcb1b00_0_35)
 
 <!-- Early Quarter -->
 ## Robot Design
