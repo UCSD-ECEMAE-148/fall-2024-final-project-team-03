@@ -154,13 +154,13 @@ Below is a circuit diagram of the electronic hardware setup for the car.
 
 ### Software
 #### Embedded Systems
-To program the Jetson Nano, we accessed the Jetson Nano through remote SSH connection to an embedded Linux system onboard and ran a docker container with all the necessary dependencies to run our packages. This allowed us to eliminate any incompatibility issues and to maximize resource efficiency on the Jetson. We used a variation of virtualization softwares including VMWare and WSL2 to build, test and launch our programs. 
+To program the Jetson Nano, we accessed the Jetson Nano through a remote SSH connection to an embedded Linux system onboard and ran a docker container with all the necessary dependencies to run our packages. This allowed us to eliminate any incompatibility issues and to maximize resource efficiency on the Jetson. Because of our dependencies, we ran into issues importing all of our libraries together such as cv2 and the adafruit servo library. These issues were resolved when we created a separate python environment rolling the version back for it to all work together.
 
 #### ROS2
-The base image pulled from Docker Hub for our project development contained the UCSD Robocar module ran on a Linux OS (Ubuntu 20.04). The Robocar module, consisting of several submodules using ROS/ROS2, was originally developed by Dominic Nightingale, a UC San Diego graduate student. His framework was built for use with a wide variety of sensors and actuation methods on scale autonomous vehicles, providing the ability to easily control a car-like robot while enabling the robot to simultaneously perform autonomous tasks.
+The base image we pulled from Docker Hub for our project development included the UCSD Robocar module, which runs on a Linux OS (Ubuntu 20.04). This module, comprising several submodules utilizing ROS/ROS2, was initially developed by Dominic Nightingale, a graduate student at UC San Diego. His framework was designed to work with a wide array of sensors and actuation methods on scale autonomous vehicles, allowing for easy control of a car-like robot while enabling it to perform autonomous tasks simultaneously.
 
 #### DonkeyCar AI
-For our early quarter course deliverables, we used DonkeyCar to train a car in driving autonomous laps around a track in a simulated environment. We used Deep Learning to record visual data of driving on a simulated track and trained the car with the data to then race on a remote server. This helped us to prepare for training our physical car on an outdoor track with computer vision.
+For our early quarter course deliverables, we used DonkeyCar to train a car to drive autonomous GPS laps around a track in a simulated environment. We utilized GNSS to record the coordinates on the track and then trained the car with this data to race on a remote server. This process was instrumental in enabling our car to run autonomously on set paths. By simulating the environment and using the recorded data, we were able to refine our car's navigation capabilities and ensure it could follow predetermined routes accurately.
 
 <!-- Authors -->
 ## Authors
