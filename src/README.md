@@ -1,8 +1,4 @@
-### How to run:
-- set up an environment with:
-  - Python 3.6-3.8
-  -# GNSS Configuration and DonkeyCar Integration
-
+#### How to run:
 ## Ublox GPS Configuration
 This GPS requires no initial configuration. It starts transmitting data out of the box. Follow the instructions below to configure it in `myconfig.py` for DonkeyCar.
 
@@ -170,4 +166,10 @@ rsync -a --progress --delete jetson@ucsdrobocar00.local:~/projects/d3/data ~/pro
 ## Optional: Clean Up Data:
 ```bash
 donkey tubclean data
-
+```
+### Run
+```bash
+   python main.py
+   rsync -a --progress ~/projects/d3/models/ jetson@ucsdrobocar00:~/projects/d3/models/
+   python manage.py drive --model=./models/ucsd_12oct17.h5
+   ```
