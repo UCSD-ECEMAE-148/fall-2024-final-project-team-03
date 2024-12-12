@@ -160,6 +160,8 @@ The base image we pulled from Docker Hub for our project development included th
 #### DonkeyCar AI
 For our early quarter course deliverables, we used DonkeyCar to train a car to drive autonomous GPS laps around a track in a simulated environment. We utilized GNSS to record the coordinates on the track and then trained the car with this data to race on a remote server. This process was instrumental in enabling our car to run autonomously on set paths. By simulating the environment and using the recorded data, we were able to refine our car's navigation capabilities and ensure it could follow predetermined routes accurately.
 
+For path following, we used the DonkeyCar AI framework and tuned our own PID values. With the DonkeyCar framework, we connected through GPS and used PID following of waypoints for the car. This allowed us to achieve precise control and ensure the car stayed on its designated path.
+
 <!-- Badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
