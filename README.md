@@ -12,8 +12,7 @@
 <p>
 Team 3 Fall 2024
 </p>
-
-![image](images/7C66CA64-C422-4535-9721-F523EA8FAC5B.jpeg)
+![Screenshot 2024-12-12 085525](https://github.com/user-attachments/assets/5cfba030-7129-43df-99ac-548fdd24e8a2)
 </div>
 
 
