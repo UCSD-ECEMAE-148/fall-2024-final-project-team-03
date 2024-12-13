@@ -6,7 +6,7 @@ NETWORK_SETTINGS="--net=host --privileged"
 
 # --runtime=nvidia
 XSOCK=/tmp/.X11-unix
-DISPLAY_SETTINGS="-e DISPLAY=$DISPLAY -v $XSOCK:$XSOCK -v $XAUTHORITY:/root/.Xauthority"
+DISPLAY_SETTINGS="-e DISPLAY=$DISPLAY -v $XSOCK:$XSOCK -v $HOME/.Xauthority:/root/.Xauthority"
 
 DEV_SETTINGS="-v $THIS_DIR/..:/root/ros2-tensorflow"
 
