@@ -1,0 +1,10 @@
+IMG_NAME="ros2_tensorflow_gpu"
+
+if [[ $1 == "--force" ]]; then
+    CLEAN_CMD="--no-cache"
+else
+    CLEAN_CMD=""
+fi
+
+##docker pull osrf/ros:foxy-desktop
+docker build $CLEAN_CMD -t $IMG_NAME .
