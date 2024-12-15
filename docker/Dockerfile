@@ -100,9 +100,9 @@ RUN pip install --ignore-installed \
   Pillow
 
 # get tensorflow models repository
-# currently object detection is part of research models that are not available on releases, so we use master
+# specify 2.3.x branch for compatibility with available TF version on jetson nano
 # TODO: check v2.20 WIP object detection https://github.com/tensorflow/models/tree/v2.2.0/official/vision/detection
-RUN git clone https://github.com/tensorflow/models.git /usr/local/lib/python3.6/dist-packages/tensorflow/models
+RUN git clone -b r2.3.0 https://github.com/tensorflow/models.git /usr/local/lib/python3.6/dist-packages/tensorflow/models
 
 #protobuf compilation
 WORKDIR /usr/local/lib/python3.6/dist-packages/tensorflow/models/research
